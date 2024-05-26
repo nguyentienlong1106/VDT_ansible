@@ -1,0 +1,6 @@
+---
+# defaults file for roles/api
+docker_image_name: "tienlong1106/git_cicd_api"
+container_name: "api"
+host_port: "8000"
+container_port: "8000"

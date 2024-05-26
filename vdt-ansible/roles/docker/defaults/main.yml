@@ -1,0 +1,11 @@
+---
+# defaults file for roles/docker
+packages:
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - gnupg-agent
+      - software-properties-common
+      - python3-docker
+      - python3-distutils
+      - python3-pip

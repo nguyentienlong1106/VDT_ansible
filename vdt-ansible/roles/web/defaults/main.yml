@@ -1,0 +1,6 @@
+---
+# defaults file for roles/web
+docker_image_name: "tienlong1106/git_cicd_frontend"
+container_name: "web"
+host_port: "3000"
+container_port: "3000"

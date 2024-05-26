@@ -1,0 +1,7 @@
+---
+# defaults file for roles/db
+mongo_image: "mongo:4.4"
+mongo_container_name: "db"
+mongo_host_port: "27017"
+mongo_container_port: "27017"
+mongo_volume_name: "mongo_db"

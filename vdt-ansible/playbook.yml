@@ -1,0 +1,25 @@
+---
+- name: docker setup
+  hosts: webservers
+  become: true
+  roles:
+    - docker
+
+- name: db setup
+  hosts: webservers
+  become: true
+  roles:
+    - db
+
+- name: api service
+  hosts: webservers
+  become: true
+  roles:
+    - api
+
+- name: web service
+  hosts: webservers
+  become: true
+  roles:
+    - web
+
